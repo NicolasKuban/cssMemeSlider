@@ -1,0 +1,160 @@
+/* @import url(//fonts.googleapis.com/css?family=Forum); */
+/* @import url(//fonts.googleapis.com/css?family=Inter); */
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    width: auto;
+    /* max-width: 1440px; */
+    margin: 0 auto;
+    background: #FFFFFF;
+    color: #000000;
+    font-family: "Inter", "Arial", sans-serif;
+    text-align: left;
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 10vh; */
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    font-family: "Forum", "Times New Roman", serif;
+    color: #FFF;
+    /* font-family: Forum; */
+    font-size: 10vh;
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    /* line-height: 50px; */
+    letter-spacing: 0.2vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    display: flex;
+    padding: 0 2vh;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    background-color: #0C0C0E;
+}
+.header-h1 {
+    text-align: center;
+}
+
+main {
+    height: 70vh;
+    margin: 5vh;
+}
+.meme-slider {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.meme-image {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 50vh;
+    border: 0.2vh solid #515151;
+    border-radius: 2vh;
+
+    /* background-image: url(../images/Candy_960x510.jpg);
+    background-repeat: no-repeat;
+    background-size:cover; */
+}
+
+.meme-image img {
+    /* object-fit: cover; */
+    width: auto;
+    height: 100%;
+}
+.meme-descr {
+    margin-top: 5vh;
+}
+.meme-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5vh;
+}
+.button-place {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    width: 6vh;
+    /* padding: 0;
+    margin: 0; */
+    cursor: pointer;
+}
+
+.circule-1 {
+    width: 4vh;
+    height: 4vh;
+    background: #BB945F;
+    border-radius: 50%;
+}
+.circule-2 {
+    width: 4vh;
+    height: 4vh;
+    background: #0C0C0E;
+    border-radius: 50%;
+}
+
+
+footer {
+    display: flex;
+    height: 5vh;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0C0C0E;
+    font-size: 2vh;
+    color: #FFF;
+}
+.footer-createdby {
+    margin: 0 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media screen and (max-width: 1043.98px) {
+    nav {
+        display: none;
+    }
+    .div-icon-profile {
+    margin-right: 40px;
+    }
+    .div-icon-burger {
+        display: flex;
+        flex-basis: auto;
+    }
+    .coffeeshop-menu {
+
+    }
+}
+
+@media screen and (max-width: 1419.98px) {
+    .image-items-other {
+        display: none;
+    }
+    .arrow-left, .arrow-right {
+        display: block;
+    }
+    .carusel-pagination {
+        margin-top: 20px;
+    }
+    .circule-3 {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1277.98px) {
+    .favorites-items {
+        justify-content: center;
+    }
+}
